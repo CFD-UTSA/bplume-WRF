@@ -9,4 +9,4 @@ Bhimireddy S.R., and Bhaganagar K, (2021), Implementing LES-bPlume formulation i
 
 Compilation:
 
-Users can follow the default WRF compilation procedure.
+Users can follow the default WRF compilation procedure. (https://www2.mmm.ucar.edu/wrf/OnLineTutorial/compilation_tutorial.php)
