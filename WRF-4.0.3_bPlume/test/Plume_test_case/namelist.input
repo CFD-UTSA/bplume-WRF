@@ -1,13 +1,13 @@
  &time_control
  run_days                            = 0,
  run_hours                           = 0,
- run_minutes                         = 15,
+ run_minutes                         = 30,
  run_seconds                         = 00,
  start_year                          = 0001,
  start_month                         = 01,  
  start_day                           = 01,  
- start_hour                          = 01,  
- start_minute                        = 15,  
+ start_hour                          = 00,  
+ start_minute                        = 00,  
  start_second                        = 00,  
  end_year                            = 0001,
  end_month                           = 01,  
@@ -18,7 +18,7 @@
  history_interval_m                  = 0,   
  history_interval_s                  = 10,  
  frames_per_outfile                  = 90,  
- restart                             = .true.,
+ restart                             = .false.,
  restart_interval_m                  = 15,
  io_form_history                     = 2
  io_form_restart                     = 2
