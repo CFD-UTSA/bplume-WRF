@@ -1,3 +1,25 @@
 This folder contains namelist and WRF case setup files to simulate a buoyant gas released into idealized ambient air with no stratification
 
+The source is located at the center of the bottom boundary 
+
+Case set-up:
+  Gas released                = Ammonia, specified through plume_gas_constant
+  Plume source diameter       = 400 m 
+  Plume source flux           = 10 g/kg m/s
+  Surface heat flux           = 0 K m/s
+  Domain size                 = 4km x 4km x 7km
+  Grid size                   = dx=dy= 40 m, dz=10 m
+  Run time                    = 30 min
+  Output frequency (Eulerian) = 0.1 Hz
+  Time step                   = 1/6 sec
+
+The myoutfields.txt file is included to restric writing of unwanted variables to WRF output stream (This reduces the output file size written by WRF)
+
+The input_sounding has a constant temperature profile throughout the domain and no mean winds
+
+The tslist file has indices that are read by WRF to write the high-frequency output, which is used for turbulence calculations
+
+Note: The tslist included is suitable only for the domain size mentioned in the namelist.input 
+If grid size or domain size in horizontal are changed, this tslist file will no longer work as intended
+
 In addition, a MATLAB script to read/convert the instantaneous files written by WRF to .mat format is also included
