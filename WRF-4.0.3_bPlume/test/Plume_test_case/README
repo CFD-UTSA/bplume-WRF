@@ -1,2 +1,3 @@
 This folder contains namelist and WRF case setup files to simulate a buoyant gas released into idealized ambient air with no stratification
 
+In addition, a MATLAB script to read/convert the instantaneous files written by WRF to .mat format is also included
