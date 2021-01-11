@@ -1,0 +1,17 @@
+job execution at: Tue Jul 16 21:58:35 CDT 2019
+running on node c455-002
+using default VNC server /bin/vncserver
+memory limit set to 93763309 kilobytes
+set wayness to 
+got VNC display :1
+local (compute node) VNC port is 5901
+got login node VNC port 10255
+Created reverse ports on Stampede2 logins
+Your VNC server is now running!
+To connect via VNC client:  SSH tunnel port 10255 to stampede2.tacc.utexas.edu:10255
+                            Then connect to localhost::10255
+Killing VGL client
+/tmp/slurmd/job3997629/slurm_script: line 163: kill: (31353) - No such process
+Killing VNC server
+Killing Xvnc process ID 31140
+job execution finished at: Tue Jul 16 22:08:39 CDT 2019
