@@ -5,7 +5,7 @@ This repository contains source code for WRF-bPlume model. Applications include 
 
 Description of the modifications done are given in 
 
-Bhimireddy S.R., and Bhaganagar K, (2021), Implementing LES-bPlume formulation in WRF: Role of atmospheric1forcings on Buoyant Plume Dynamics, Monthly Weather Review, in advanced review.
+Bhimireddy S.R., and Bhaganagar K, (2021), Implementing bplume-WRF-LES: Role of atmospheric1forcings on Buoyant Plume Dynamics, Monthly Weather Review, 2021
 
 Compilation:
 
