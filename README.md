@@ -1,6 +1,6 @@
 # wrf-bplume
 Cite the following reference when you use this code:
- BhimiReddy,S.  Bhaganagar, K (2021).  Implementing a new formulation in WRF-LES for Buoyant Plume Simulations: bPlume-WRF-LES model. Monthly Weather Review, doi: https://doi.org/10.1175/MWR-D-20-0190.1, June, 2021.
+ BhimiReddy,S.  Bhaganagar, K (2021).  Implementing a new formulation in WRF-LES for Buoyant Plume Simulations: bPlume-WRF-LES model. Monthly Weather Review, 149(7):2299:2319, 2021.
 
 Source code of WRF-bPlume model
 
