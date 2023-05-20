@@ -1,16 +1,25 @@
-# wrf-bplume
-Cite the following reference when you use this code:
- BhimiReddy,S.  Bhaganagar, K (2021).  Implementing a new formulation in WRF-LES for Buoyant Plume Simulations: bPlume-WRF-LES model. Monthly Weather Review, 149(7):2299:2319, 2021.
+# LESbplume-Python-Code
 
-Source code of WRF-bPlume model
+INTRO:
+LESbplume.py is a python package that includes functions to process and visualize WRF-bPlume LES data.
 
-This repository contains source code for WRF-bPlume model. Applications include simulating buoyant gases or thermal plumes inside WRF model domain. 
+CONTENTS: 
+There are 3 files in the folder. Please always keep all the files in the same directory. 
 
-Description of the modifications done are given in 
-BhimiReddy,S.  Bhaganagar, K (2021).  Implementing a new formulation in WRF-LES for Buoyant Plume Simulations: bPlume-WRF-LES model. Monthly Weather Review, doi: https://doi.org/10.1175/MWR-D-20-0190.1, June, 2021.
+	- LESblume.py and multifluidlab.py are the python module itself.
 
-Compilation:
+	- Examples.ipynb is file that user would open by JupyterLab or Jupyter 	Notebook. 	This file demonstrated all the functions within the LESbplume module.
 
-Users can follow the default WRF compilation procedure. (https://www2.mmm.ucar.edu/wrf/OnLineTutorial/compilation_tutorial.php)
+REQUIRED PROGRAM: (Anaconda)
 
-A simple buoyant plume test case set-up is included in /WRF-4.0.3_bPlume/test/Plume_test_case/ 
+This python program was created in JupyterLab which included in the Anaconda program package. Anaconda can be downloaded and installed from the following link: 
+
+https://www.anaconda.com/products/individual 
+
+After installation of Anaconda, open up either JupyterLab or Jupyter Notebook to run the python program.
+
+### TODO's 
+- Centerline profile plots.
+- Testing for Carbon Dioxde Cases - JS.
+- Rename variables with conistent naming scheme.
+
